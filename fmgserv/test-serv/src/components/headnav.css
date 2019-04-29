@@ -1,0 +1,10 @@
+.navbar{
+    background-color: black;
+}
+
+.navbar-toggler-icon{
+    background-color: white;
+    border-radius: 10%;
+    width: 1.2em;
+    height: 1.2em;
+}
