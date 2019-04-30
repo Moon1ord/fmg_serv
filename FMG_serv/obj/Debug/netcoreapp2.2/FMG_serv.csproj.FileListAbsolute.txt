@@ -1,0 +1,14 @@
+/home/eugeniy/Desktop/Documents/fmgserv/FMG_serv/bin/Debug/netcoreapp2.2/FMG_serv.deps.json
+/home/eugeniy/Desktop/Documents/fmgserv/FMG_serv/bin/Debug/netcoreapp2.2/FMG_serv.runtimeconfig.json
+/home/eugeniy/Desktop/Documents/fmgserv/FMG_serv/bin/Debug/netcoreapp2.2/FMG_serv.runtimeconfig.dev.json
+/home/eugeniy/Desktop/Documents/fmgserv/FMG_serv/bin/Debug/netcoreapp2.2/FMG_serv.dll
+/home/eugeniy/Desktop/Documents/fmgserv/FMG_serv/bin/Debug/netcoreapp2.2/FMG_serv.pdb
+/home/eugeniy/Desktop/Documents/fmgserv/FMG_serv/obj/Debug/netcoreapp2.2/FMG_serv.csprojAssemblyReference.cache
+/home/eugeniy/Desktop/Documents/fmgserv/FMG_serv/obj/Debug/netcoreapp2.2/FMG_serv.csproj.CoreCompileInputs.cache
+/home/eugeniy/Desktop/Documents/fmgserv/FMG_serv/obj/Debug/netcoreapp2.2/FMG_serv.RazorAssemblyInfo.cache
+/home/eugeniy/Desktop/Documents/fmgserv/FMG_serv/obj/Debug/netcoreapp2.2/FMG_serv.RazorAssemblyInfo.cs
+/home/eugeniy/Desktop/Documents/fmgserv/FMG_serv/obj/Debug/netcoreapp2.2/FMG_serv.AssemblyInfoInputs.cache
+/home/eugeniy/Desktop/Documents/fmgserv/FMG_serv/obj/Debug/netcoreapp2.2/FMG_serv.AssemblyInfo.cs
+/home/eugeniy/Desktop/Documents/fmgserv/FMG_serv/obj/Debug/netcoreapp2.2/FMG_serv.RazorTargetAssemblyInfo.cache
+/home/eugeniy/Desktop/Documents/fmgserv/FMG_serv/obj/Debug/netcoreapp2.2/FMG_serv.dll
+/home/eugeniy/Desktop/Documents/fmgserv/FMG_serv/obj/Debug/netcoreapp2.2/FMG_serv.pdb

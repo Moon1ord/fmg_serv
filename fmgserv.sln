@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fmgserv", "fmgserv\fmgserv.csproj", "{8AB8BB12-7724-4E65-88D6-B24AFF8AA33D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FMG_serv", "FMG_serv\FMG_serv.csproj", "{8AB8BB12-7724-4E65-88D6-B24AFF8AA33D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
