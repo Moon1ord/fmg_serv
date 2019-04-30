@@ -3,13 +3,7 @@ import './links.css';
 import $ from 'jquery';
 
 class WraithLinks extends React.Component{
-    
-    postPath(e){
-        $.post('Wraith/Test', {
-            test_path: e.value
-        });
-    }
-    
+
     render() {
         return(
             <div className="dropdown">

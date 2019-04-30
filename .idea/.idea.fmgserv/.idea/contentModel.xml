@@ -27,6 +27,88 @@
             </e>
           </e>
         </e>
+        <e p="shots" t="Include">
+          <e p="article" t="Include">
+            <e p="1280_chrome_current.png" t="Include" />
+            <e p="1280_chrome_data.txt" t="Include" />
+            <e p="1280_chrome_diff.png" t="Include" />
+            <e p="1280_chrome_new.png" t="Include" />
+          </e>
+          <e p="category" t="Include">
+            <e p="1280_chrome_current.png" t="Include" />
+            <e p="1280_chrome_data.txt" t="Include" />
+            <e p="1280_chrome_diff.png" t="Include" />
+            <e p="1280_chrome_new.png" t="Include" />
+          </e>
+          <e p="editor" t="Include">
+            <e p="1280_chrome_current.png" t="Include" />
+            <e p="1280_chrome_data.txt" t="Include" />
+            <e p="1280_chrome_diff.png" t="Include" />
+            <e p="1280_chrome_new.png" t="Include" />
+          </e>
+          <e p="gal" t="Include">
+            <e p="1280_chrome_current.png" t="Include" />
+            <e p="1280_chrome_data.txt" t="Include" />
+            <e p="1280_chrome_diff.png" t="Include" />
+            <e p="1280_chrome_new.png" t="Include" />
+          </e>
+          <e p="gallery.html" t="Include" />
+          <e p="home" t="Include">
+            <e p="1280_chrome_current.png" t="Include" />
+            <e p="1280_chrome_data.txt" t="Include" />
+            <e p="1280_chrome_diff.png" t="Include" />
+            <e p="1280_chrome_new.png" t="Include" />
+          </e>
+          <e p="thumbnails" t="Include">
+            <e p="article" t="Include">
+              <e p="1280_chrome_current.png" t="Include" />
+              <e p="1280_chrome_diff.png" t="Include" />
+              <e p="1280_chrome_new.png" t="Include" />
+            </e>
+            <e p="category" t="Include">
+              <e p="1280_chrome_current.png" t="Include" />
+              <e p="1280_chrome_diff.png" t="Include" />
+              <e p="1280_chrome_new.png" t="Include" />
+            </e>
+            <e p="editor" t="Include">
+              <e p="1280_chrome_current.png" t="Include" />
+              <e p="1280_chrome_diff.png" t="Include" />
+              <e p="1280_chrome_new.png" t="Include" />
+            </e>
+            <e p="gal" t="Include">
+              <e p="1280_chrome_current.png" t="Include" />
+              <e p="1280_chrome_diff.png" t="Include" />
+              <e p="1280_chrome_new.png" t="Include" />
+            </e>
+            <e p="home" t="Include">
+              <e p="1280_chrome_current.png" t="Include" />
+              <e p="1280_chrome_diff.png" t="Include" />
+              <e p="1280_chrome_new.png" t="Include" />
+            </e>
+            <e p="video" t="Include">
+              <e p="1280_chrome_current.png" t="Include" />
+              <e p="1280_chrome_diff.png" t="Include" />
+              <e p="1280_chrome_new.png" t="Include" />
+            </e>
+            <e p="wide" t="Include">
+              <e p="1280_chrome_current.png" t="Include" />
+              <e p="1280_chrome_diff.png" t="Include" />
+              <e p="1280_chrome_new.png" t="Include" />
+            </e>
+          </e>
+          <e p="video" t="Include">
+            <e p="1280_chrome_current.png" t="Include" />
+            <e p="1280_chrome_data.txt" t="Include" />
+            <e p="1280_chrome_diff.png" t="Include" />
+            <e p="1280_chrome_new.png" t="Include" />
+          </e>
+          <e p="wide" t="Include">
+            <e p="1280_chrome_current.png" t="Include" />
+            <e p="1280_chrome_data.txt" t="Include" />
+            <e p="1280_chrome_diff.png" t="Include" />
+            <e p="1280_chrome_new.png" t="Include" />
+          </e>
+        </e>
         <e p="test-serv" t="Include">
           <e p=".gitignore" t="Include" />
           <e p="README.md" t="Include" />
@@ -382,181 +464,78 @@
               <e p="shots" t="Include">
                 <e p="category" t="Include">
                   <e p="1280_phantomjs_current.png" t="Include" />
-                  <e p="1280_phantomjs_data.txt" t="Include" />
-                  <e p="1280_phantomjs_diff.png" t="Include" />
                   <e p="1280_phantomjs_new.png" t="Include" />
                 </e>
                 <e p="column" t="Include">
                   <e p="1280_phantomjs_current.png" t="Include" />
-                  <e p="1280_phantomjs_data.txt" t="Include" />
-                  <e p="1280_phantomjs_diff.png" t="Include" />
                   <e p="1280_phantomjs_new.png" t="Include" />
                 </e>
                 <e p="column_art" t="Include">
                   <e p="1280_phantomjs_current.png" t="Include" />
-                  <e p="1280_phantomjs_data.txt" t="Include" />
-                  <e p="1280_phantomjs_diff.png" t="Include" />
                   <e p="1280_phantomjs_new.png" t="Include" />
                 </e>
-                <e p="gallery.html" t="Include" />
                 <e p="home" t="Include">
-                  <e p="1280_phantomjs_current.png" t="Include" />
-                  <e p="1280_phantomjs_data.txt" t="Include" />
-                  <e p="1280_phantomjs_diff.png" t="Include" />
                   <e p="1280_phantomjs_new.png" t="Include" />
                 </e>
                 <e p="lmse" t="Include">
                   <e p="1280_phantomjs_current.png" t="Include" />
-                  <e p="1280_phantomjs_data.txt" t="Include" />
-                  <e p="1280_phantomjs_diff.png" t="Include" />
                   <e p="1280_phantomjs_new.png" t="Include" />
                 </e>
                 <e p="lmsewg" t="Include">
                   <e p="1280_phantomjs_current.png" t="Include" />
-                  <e p="1280_phantomjs_data.txt" t="Include" />
-                  <e p="1280_phantomjs_diff.png" t="Include" />
                   <e p="1280_phantomjs_new.png" t="Include" />
                 </e>
                 <e p="lse" t="Include">
                   <e p="1280_phantomjs_current.png" t="Include" />
-                  <e p="1280_phantomjs_data.txt" t="Include" />
-                  <e p="1280_phantomjs_diff.png" t="Include" />
                   <e p="1280_phantomjs_new.png" t="Include" />
                 </e>
                 <e p="lwse" t="Include">
                   <e p="1280_phantomjs_current.png" t="Include" />
-                  <e p="1280_phantomjs_data.txt" t="Include" />
-                  <e p="1280_phantomjs_diff.png" t="Include" />
                   <e p="1280_phantomjs_new.png" t="Include" />
                 </e>
                 <e p="notype" t="Include">
-                  <e p="1280_phantomjs_current.png" t="Include" />
-                  <e p="1280_phantomjs_data.txt" t="Include" />
-                  <e p="1280_phantomjs_diff.png" t="Include" />
                   <e p="1280_phantomjs_new.png" t="Include" />
                 </e>
                 <e p="slide_gal" t="Include">
                   <e p="1280_phantomjs_current.png" t="Include" />
-                  <e p="1280_phantomjs_data.txt" t="Include" />
-                  <e p="1280_phantomjs_diff.png" t="Include" />
                   <e p="1280_phantomjs_new.png" t="Include" />
                 </e>
                 <e p="thumbnails" t="Include">
-                  <e p="category" t="Include">
-                    <e p="1280_phantomjs_current.png" t="Include" />
-                    <e p="1280_phantomjs_diff.png" t="Include" />
-                    <e p="1280_phantomjs_new.png" t="Include" />
-                  </e>
-                  <e p="column" t="Include">
-                    <e p="1280_phantomjs_current.png" t="Include" />
-                    <e p="1280_phantomjs_diff.png" t="Include" />
-                    <e p="1280_phantomjs_new.png" t="Include" />
-                  </e>
-                  <e p="column_art" t="Include">
-                    <e p="1280_phantomjs_current.png" t="Include" />
-                    <e p="1280_phantomjs_diff.png" t="Include" />
-                    <e p="1280_phantomjs_new.png" t="Include" />
-                  </e>
-                  <e p="home" t="Include">
-                    <e p="1280_phantomjs_current.png" t="Include" />
-                    <e p="1280_phantomjs_diff.png" t="Include" />
-                    <e p="1280_phantomjs_new.png" t="Include" />
-                  </e>
-                  <e p="lmse" t="Include">
-                    <e p="1280_phantomjs_current.png" t="Include" />
-                    <e p="1280_phantomjs_diff.png" t="Include" />
-                    <e p="1280_phantomjs_new.png" t="Include" />
-                  </e>
-                  <e p="lmsewg" t="Include">
-                    <e p="1280_phantomjs_current.png" t="Include" />
-                    <e p="1280_phantomjs_diff.png" t="Include" />
-                    <e p="1280_phantomjs_new.png" t="Include" />
-                  </e>
-                  <e p="lse" t="Include">
-                    <e p="1280_phantomjs_current.png" t="Include" />
-                    <e p="1280_phantomjs_diff.png" t="Include" />
-                    <e p="1280_phantomjs_new.png" t="Include" />
-                  </e>
-                  <e p="lwse" t="Include">
-                    <e p="1280_phantomjs_current.png" t="Include" />
-                    <e p="1280_phantomjs_diff.png" t="Include" />
-                    <e p="1280_phantomjs_new.png" t="Include" />
-                  </e>
-                  <e p="notype" t="Include">
-                    <e p="1280_phantomjs_current.png" t="Include" />
-                    <e p="1280_phantomjs_diff.png" t="Include" />
-                    <e p="1280_phantomjs_new.png" t="Include" />
-                  </e>
-                  <e p="slide_gal" t="Include">
-                    <e p="1280_phantomjs_current.png" t="Include" />
-                    <e p="1280_phantomjs_diff.png" t="Include" />
-                    <e p="1280_phantomjs_new.png" t="Include" />
-                  </e>
-                  <e p="tilda" t="Include">
-                    <e p="1280_phantomjs_current.png" t="Include" />
-                    <e p="1280_phantomjs_diff.png" t="Include" />
-                    <e p="1280_phantomjs_new.png" t="Include" />
-                  </e>
-                  <e p="video_gal" t="Include">
-                    <e p="1280_phantomjs_current.png" t="Include" />
-                    <e p="1280_phantomjs_diff.png" t="Include" />
-                    <e p="1280_phantomjs_new.png" t="Include" />
-                  </e>
-                  <e p="wide_gal" t="Include">
-                    <e p="1280_phantomjs_current.png" t="Include" />
-                    <e p="1280_phantomjs_diff.png" t="Include" />
-                    <e p="1280_phantomjs_new.png" t="Include" />
-                  </e>
-                  <e p="wide_op" t="Include">
-                    <e p="1280_phantomjs_current.png" t="Include" />
-                    <e p="1280_phantomjs_diff.png" t="Include" />
-                    <e p="1280_phantomjs_new.png" t="Include" />
-                  </e>
-                  <e p="wide_pic" t="Include">
-                    <e p="1280_phantomjs_current.png" t="Include" />
-                    <e p="1280_phantomjs_diff.png" t="Include" />
-                    <e p="1280_phantomjs_new.png" t="Include" />
-                  </e>
-                  <e p="wide_pic_2" t="Include">
-                    <e p="1280_phantomjs_current.png" t="Include" />
-                    <e p="1280_phantomjs_diff.png" t="Include" />
-                    <e p="1280_phantomjs_new.png" t="Include" />
-                  </e>
+                  <e p="category" t="Include" />
+                  <e p="column" t="Include" />
+                  <e p="column_art" t="Include" />
+                  <e p="home" t="Include" />
+                  <e p="lmse" t="Include" />
+                  <e p="lmsewg" t="Include" />
+                  <e p="lse" t="Include" />
+                  <e p="lwse" t="Include" />
+                  <e p="notype" t="Include" />
+                  <e p="slide_gal" t="Include" />
+                  <e p="tilda" t="Include" />
+                  <e p="video_gal" t="Include" />
+                  <e p="wide_gal" t="Include" />
+                  <e p="wide_op" t="Include" />
+                  <e p="wide_pic" t="Include" />
+                  <e p="wide_pic_2" t="Include" />
                 </e>
                 <e p="tilda" t="Include">
                   <e p="1280_phantomjs_current.png" t="Include" />
-                  <e p="1280_phantomjs_data.txt" t="Include" />
-                  <e p="1280_phantomjs_diff.png" t="Include" />
                   <e p="1280_phantomjs_new.png" t="Include" />
                 </e>
                 <e p="video_gal" t="Include">
                   <e p="1280_phantomjs_current.png" t="Include" />
-                  <e p="1280_phantomjs_data.txt" t="Include" />
-                  <e p="1280_phantomjs_diff.png" t="Include" />
                   <e p="1280_phantomjs_new.png" t="Include" />
                 </e>
                 <e p="wide_gal" t="Include">
                   <e p="1280_phantomjs_current.png" t="Include" />
-                  <e p="1280_phantomjs_data.txt" t="Include" />
-                  <e p="1280_phantomjs_diff.png" t="Include" />
-                  <e p="1280_phantomjs_new.png" t="Include" />
                 </e>
-                <e p="wide_op" t="Include">
-                  <e p="1280_phantomjs_current.png" t="Include" />
-                  <e p="1280_phantomjs_data.txt" t="Include" />
-                  <e p="1280_phantomjs_diff.png" t="Include" />
-                  <e p="1280_phantomjs_new.png" t="Include" />
-                </e>
+                <e p="wide_op" t="Include" />
                 <e p="wide_pic" t="Include">
                   <e p="1280_phantomjs_current.png" t="Include" />
-                  <e p="1280_phantomjs_data.txt" t="Include" />
-                  <e p="1280_phantomjs_diff.png" t="Include" />
                   <e p="1280_phantomjs_new.png" t="Include" />
                 </e>
                 <e p="wide_pic_2" t="Include">
                   <e p="1280_phantomjs_current.png" t="Include" />
-                  <e p="1280_phantomjs_data.txt" t="Include" />
-                  <e p="1280_phantomjs_diff.png" t="Include" />
                   <e p="1280_phantomjs_new.png" t="Include" />
                 </e>
               </e>
