@@ -46,7 +46,7 @@ screen_widths:
   - 340
 
 # (optional) JavaScript file to execute before taking screenshot of every path. Default: nil
-#before_capture: 'javascript/wait--casper.js'
+#before_capture: 'javascript/wait--chrome.js'
 
 # (required) The directory that your screenshots will be stored in
 directory: 'shots'

@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle/3.03/jquery.cycle.all.min.js"></script>
+  <style type="text/css">
+    body {
+      position: relative;
+      float: left;
+      width: 100%;
+    }
+    .slideshow {
+      height: 510px;
+      margin: 20px 0;
+    }
+    .slide {
+      background-color: #FFF !important;
+      width: 100% !important;
+      height: 510px !important;
+    }
+    .prev {
+      margin-left: -10px;
+      margin-right: 10px;
+    }
+    .next,
+    .prev {
+      cursor: pointer;
+      background-color: #e7e7e7;
+      border: 2px solid #eee;
+      height: 400px;
+      margin-top: 60px;
+    }
+
+    .prev span:before,
+    .next span:before {
+      font-size: 35px;
+      padding: 10px;
+      display: block;
+      font-family: "FontAwesome";
+      margin-top: 165px;
+      display: block;
+    }
+
+    .prev span:before {
+      content:"\f0d9";
+    }
+    .next span:before {
+      content:"\f0da";
+    }
+    .list-group-item.checked a:after {
+      color: #23e343;
+    }
+    .list-group-item a span {
+      word-wrap: break-word;
+      width: 95%;
+      display: block;
+    }
+    .list-group-item a:after {
+      content:"\f00c";
+      font-family: "FontAwesome";
+      color: #eae6e6;
+      position: absolute;
+      right: 10px;
+      top: 10px;
+    }
+    .checked a {
+      color: #000;
+    }
+    .current {
+      background-color: #e7e7e7;
+    }
+    .threshold {
+      color: red;
+    }
+    .compare {
+      cursor: pointer;
+      margin-left: 20px;
+    }
+
+    .compare:before {
+      font-family: "FontAwesome";
+      content:"\f0c5";
+      font-size: 30px;
+    }
+    .compare-modal {
+      position:fixed;
+      margin:0;
+      top:0;
+      left:0;
+      width: 100%;
+      height: 100%;
+      background:rgba(0,0,0,0.7);
+      overflow: scroll;
+      z-index: 1000;
+    }
+    .compare-container {
+      padding-bottom: 300px;
+      z-index: 1000;
+      margin-top: 20px;
+      text-align: center;
+    }
+    .compare-container img{
+      margin-right: 20px;
+      max-width: 30%;
+    }
+  </style>
+  <script type="text/javascript">
+    $(function() {
+      var slideshow = $('.slideshow');
+      var compareModal = $('.compare-modal');
+
+      slideshow.cycle({
+        fx:     'scrollHorz',
+        speed:  300,
+        prev:   '.prev',
+        next:   '.next',
+        before: function (curr, next, opts) {
+          $('.current').removeClass('current');
+          var $next = $(next);
+          var path = $next.find('.path').attr('name');
+          $.each($('.list-group .list-group-item a'), function() {
+            if ($(this).attr('href').substring(1) == path) {
+              $(this).parent().addClass('checked');
+              $(this).parent().addClass('current');
+            }
+          });
+
+          var newImage = $next.find('a.shot:eq(0)').attr('href');
+          var oldImage = $next.find('a.shot:eq(1)').attr('href');
+          var diffImage = $next.find('a.shot:eq(2)').attr('href');
+          compareModal.html('<div class="compare-container"><img src="'+newImage+'"/><img src="'+oldImage+'"/><img src="'+diffImage+'"/></div>');
+        },
+        timeout: 0
+      });
+
+      $(document).on('click', '.compare', function() {
+        compareModal.show();
+      });
+
+      $('.list-group .list-group-item a').unbind().on('click', function(){
+        var href = $(this).attr('href').substring(1);
+
+        slideshow.cycle($('.slide.'+href+':first').index());
+      })
+
+      $('.shot').unbind().on('click', function(e){
+        e.preventDefault();
+        var url = $(this).attr('href');
+        window.open(url,'_blank');
+      })
+
+      compareModal.on('click', function(){
+        $(this).hide();
+      });
+
+      $(document).on('keyup', function(e) {
+        if (e.keyCode === 27) { // Escape
+          compareModal.hide();
+        } else if (e.keyCode === 37) { // Left
+          slideshow.cycle('prev');
+        } else if (e.keyCode === 39) { // Right
+          slideshow.cycle('next');
+        }
+      });
+    })
+</script>
+</head>
+<body>
+  <div class="compare-modal" style="display: none;"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 col-md-3">
+        <div class="panel">
+          <div class="page-header">
+            <h4>List of screenshots for shots <small>taken 2019/05/06 16:41:05</small></h4>
+          </div>
+          <div class="panel-heading">Pages:</div>
+          <ul class="list-group list-group-flush">
+            
+            <li class="list-group-item"><a href="#column_art"><span>/column_art</span></a></li>
+            
+            <li class="list-group-item"><a href="#slide_gal"><span>/slide_gal</span></a></li>
+            
+            <li class="list-group-item"><a href="#lmse"><span>/lmse</span></a></li>
+            
+            <li class="list-group-item"><a href="#lse"><span>/lse</span></a></li>
+            
+            <li class="list-group-item"><a href="#lwse"><span>/lwse</span></a></li>
+            
+            <li class="list-group-item"><a href="#wide_pic"><span>/wide_pic</span></a></li>
+            
+            <li class="list-group-item"><a href="#column"><span>/column</span></a></li>
+            
+            <li class="list-group-item"><a href="#lmsewg"><span>/lmsewg</span></a></li>
+            
+            <li class="list-group-item"><a href="#notype"><span>/notype</span></a></li>
+            
+            <li class="list-group-item"><a href="#home"><span>/home</span></a></li>
+            
+            <li class="list-group-item"><a href="#tilda"><span>/tilda</span></a></li>
+            
+            <li class="list-group-item"><a href="#wide_pic_2"><span>/wide_pic_2</span></a></li>
+            
+            <li class="list-group-item"><a href="#category"><span>/category</span></a></li>
+            
+            <li class="list-group-item"><a href="#wide_op"><span>/wide_op</span></a></li>
+            
+            <li class="list-group-item"><a href="#wide_gal"><span>/wide_gal</span></a></li>
+            
+            <li class="list-group-item"><a href="#video_gal"><span>/video_gal</span></a></li>
+            
+          </ul>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-9">
+        <div class="slideshow-container">
+          <div class="prev col-sm-1"><span></span></div>
+          <div class="slideshow pull-left col-sm-10">
+            
+            
+            <div class="row slide column_art">
+              <a class="path" name="column_art"></a>
+              <div class="col-sm-12 text-center">
+                
+                
+                <h4>1280px - /column_art</h4>
+                
+                
+              </div>
+              
+              <div class="col-sm-4">
+                <a class="shot" href="column_art/1280_phantomjs_current.png">
+                  <img class="short-screenshot img-thumbnail" src="thumbnails/column_art/1280_phantomjs_current.png">
+                </a>
+                <p class="text-center"><a target="_blank" href="https://www.buro247.ru/a/58272.html">current</a></p>
+              </div>
+              
+              <div class="col-sm-4">
+                <a class="shot" href="column_art/1280_phantomjs_new.png">
+                  <img class="short-screenshot img-thumbnail" src="thumbnails/column_art/1280_phantomjs_new.png">
+                </a>
+                <p class="text-center"><a target="_blank" href="http://buro-master.ru/a/58272.html">new</a></p>
+              </div>
+              
+              <div class="col-sm-4">
+                
+                <a class="shot" href="column_art/1280_phantomjs_diff.png">
+                  <img class="short-screenshot img-thumbnail" src="thumbnails/column_art/1280_phantomjs_diff.png">
+                </a>
+                
+                <p class="text-center">diff</p>
+              </div>
+              <div class="difference col-sm-12">
+                
+                
+                <h4 class="text-center threshold">14.4 % different<span class="compare"></span></h4>
+                
+                
+              </div>
+            </div>
+            
+            
+            
+            <div class="row slide slide_gal">
+              <a class="path" name="slide_gal"></a>
+              <div class="col-sm-12 text-center">
+                
+                
+                <h4>1280px - /slide_gal</h4>
+                
+                
+              </div>
+              
+              <div class="col-sm-4">
+                <a class="shot" href="slide_gal/1280_phantomjs_current.png">
+                  <img class="short-screenshot img-thumbnail" src="thumbnails/slide_gal/1280_phantomjs_current.png">
+                </a>
+                <p class="text-center"><a target="_blank" href="https://www.buro247.ru/a/58502.html">current</a></p>
+              </div>
+              
+              <div class="col-sm-4">
+                <a class="shot" href="slide_gal/1280_phantomjs_new.png">
+                  <img class="short-screenshot img-thumbnail" src="thumbnails/slide_gal/1280_phantomjs_new.png">
+                </a>
+                <p class="text-center"><a target="_blank" href="http://buro-master.ru/a/58502.html">new</a></p>
+              </div>
+              
+              <div class="col-sm-4">
+                
+                <a class="shot" href="slide_gal/1280_phantomjs_diff.png">
+                  <img class="short-screenshot img-thumbnail" src="thumbnails/slide_gal/1280_phantomjs_diff.png">
+                </a>
+                
+                <p class="text-center">diff</p>
+              </div>
+              <div class="difference col-sm-12">
+                
+                
+                <h4 class="text-center threshold">12.09 % different<span class="compare"></span></h4>
+                
+                
+              </div>
+            </div>
+            
+            
+            
+            <div class="row slide lmse">
+              <a class="path" name="lmse"></a>
+              <div class="col-sm-12 text-center">
+                
+                
+                <h4>1280px - /lmse</h4>
+                
+                
+              </div>
+              
+              <div class="col-sm-4">
+                <a class="shot" href="lmse/1280_phantomjs_current.png">
+                  <img class="short-screenshot img-thumbnail" src="thumbnails/lmse/1280_phantomjs_current.png">
+                </a>
+                <p class="text-center"><a target="_blank" href="https://www.buro247.ru/a/59140.html">current</a></p>
+              </div>
+              
+              <div class="col-sm-4">
+                <a class="shot" href="lmse/1280_phantomjs_new.png">
+                  <img class="short-screenshot img-thumbnail" src="thumbnails/lmse/1280_phantomjs_new.png">
+                </a>
+                <p class="text-center"><a target="_blank" href="http://buro-master.ru/a/59140.html">new</a></p>
+              </div>
+              
+              <div class="col-sm-4">
+                
+                <a class="shot" href="lmse/1280_phantomjs_diff.png">
+                  <img class="short-screenshot img-thumbnail" src="thumbnails/lmse/1280_phantomjs_diff.png">
+                </a>
+                
+                <p class="text-center">diff</p>
+              </div>
+              <div class="difference col-sm-12">
+                
+                
+                <h4 class="text-center threshold">10.52 % different<span class="compare"></span></h4>
+                
+                
+              </div>
+            </div>
+            
+            
+            
+            <div class="row slide lse">
+              <a class="path" name="lse"></a>
+              <div class="col-sm-12 text-center">
+                
+                
+                <h4>1280px - /lse</h4>
+                
+                
+              </div>
+              
+              <div class="col-sm-4">
+                <a class="shot" href="lse/1280_phantomjs_current.png">
+                  <img class="short-screenshot img-thumbnail" src="thumbnails/lse/1280_phantomjs_current.png">
+                </a>
+                <p class="text-center"><a target="_blank" href="https://www.buro247.ru/a/55145.html">current</a></p>
+              </div>
+              
+              <div class="col-sm-4">
+                <a class="shot" href="lse/1280_phantomjs_new.png">
+                  <img class="short-screenshot img-thumbnail" src="thumbnails/lse/1280_phantomjs_new.png">
+                </a>
+                <p class="text-center"><a target="_blank" href="http://buro-master.ru/a/55145.html">new</a></p>
+              </div>
+              
+              <div class="col-sm-4">
+                
+                <a class="shot" href="lse/1280_phantomjs_diff.png">
+                  <img class="short-screenshot img-thumbnail" src="thumbnails/lse/1280_phantomjs_diff.png">
+                </a>
+                
+                <p class="text-center">diff</p>
+              </div>
+              <div class="difference col-sm-12">
+                
+                
+                <h4 class="text-center threshold">9.17 % different<span class="compare"></span></h4>
+                
+                
+              </div>
+            </div>
+            
+            
+            
+            <div class="row slide lwse">
+              <a class="path" name="lwse"></a>
+              <div class="col-sm-12 text-center">
+                
+                
+                <h4>1280px - /lwse</h4>
+                
+                
+              </div>
+              
+              <div class="col-sm-4">
+                <a class="shot" href="lwse/1280_phantomjs_current.png">
+                  <img class="short-screenshot img-thumbnail" src="thumbnails/lwse/1280_phantomjs_current.png">
+                </a>
+                <p class="text-center"><a target="_blank" href="https://www.buro247.ru/a/55001.html">current</a></p>
+              </div>
+              
+              <div class="col-sm-4">
+                <a class="shot" href="lwse/1280_phantomjs_new.png">
+                  <img class="short-screenshot img-thumbnail" src="thumbnails/lwse/1280_phantomjs_new.png">
+                </a>
+                <p class="text-center"><a target="_blank" href="http://buro-master.ru/a/55001.html">new</a></p>
+              </div>
+              
+              <div class="col-sm-4">
+                
+                <a class="shot" href="lwse/1280_phantomjs_diff.png">
+                  <img class="short-screenshot img-thumbnail" src="thumbnails/lwse/1280_phantomjs_diff.png">
+                </a>
+                
+                <p class="text-center">diff</p>
+              </div>
+              <div class="difference col-sm-12">
+                
+                
+                <h4 class="text-center threshold">8.33 % different<span class="compare"></span></h4>
+                
+                
+              </div>
+            </div>
+            
+            
+            
+            <div class="row slide wide_pic">
+              <a class="path" name="wide_pic"></a>
+              <div class="col-sm-12 text-center">
+                
+                
+                <h4>1280px - /wide_pic</h4>
+                
+                
+              </div>
+              
+              <div class="col-sm-4">
+                <a class="shot" href="wide_pic/1280_phantomjs_current.png">
+                  <img class="short-screenshot img-thumbnail" src="thumbnails/wide_pic/1280_phantomjs_current.png">
+                </a>
+                <p class="text-center"><a target="_blank" href="https://www.buro247.ru/a/43161.html">current</a></p>
+              </div>
+              
+              <div class="col-sm-4">
+                <a class="shot" href="wide_pic/1280_phantomjs_new.png">
+                  <img class="short-screenshot img-thumbnail" src="thumbnails/wide_pic/1280_phantomjs_new.png">
+                </a>
+                <p class="text-center"><a target="_blank" href="http://buro-master.ru/a/43161.html">new</a></p>
+              </div>
+              
+              <div class="col-sm-4">
+                
+                <a class="shot" href="wide_pic/1280_phantomjs_diff.png">
+                  <img class="short-screenshot img-thumbnail" src="thumbnails/wide_pic/1280_phantomjs_diff.png">
+                </a>
+                
+                <p class="text-center">diff</p>
+              </div>
+              <div class="difference col-sm-12">
+                
+                
+                <h4 class="text-center threshold">8.04 % different<span class="compare"></span></h4>
+                
+                
+              </div>
+            </div>
+            
+            
+            
+            <div class="row slide column">
+              <a class="path" name="column"></a>
+              <div class="col-sm-12 text-center">
+                
+                
+                <h4>1280px - /column</h4>
+                
+                
+              </div>
+              
+              <div class="col-sm-4">
+                <a class="shot" href="column/1280_phantomjs_current.png">
+                  <img class="short-screenshot img-thumbnail" src="thumbnails/column/1280_phantomjs_current.png">
+                </a>
+                <p class="text-center"><a target="_blank" href="https://www.buro247.ru/columnist/elisey-kostcov">current</a></p>
+              </div>
+              
+              <div class="col-sm-4">
+                <a class="shot" href="column/1280_phantomjs_new.png">
+                  <img class="short-screenshot img-thumbnail" src="thumbnails/column/1280_phantomjs_new.png">
+                </a>
+                <p class="text-center"><a target="_blank" href="http://buro-master.ru/columnist/elisey-kostcov">new</a></p>
+              </div>
+              
+              <div class="col-sm-4">
+                
+                <a class="shot" href="column/1280_phantomjs_diff.png">
+                  <img class="short-screenshot img-thumbnail" src="thumbnails/column/1280_phantomjs_diff.png">
+                </a>
+                
+                <p class="text-center">diff</p>
+              </div>
+              <div class="difference col-sm-12">
+                
+                
+                <h4 class="text-center threshold">7.64 % different<span class="compare"></span></h4>
+                
+                
+              </div>
+            </div>
+            
+            
+            
+            <div class="row slide lmsewg">
+              <a class="path" name="lmsewg"></a>
+              <div class="col-sm-12 text-center">
+                
+                
+                <h4>1280px - /lmsewg</h4>
+                
+                
+              </div>
+              
+              <div class="col-sm-4">
+                <a class="shot" href="lmsewg/1280_phantomjs_current.png">
+                  <img class="short-screenshot img-thumbnail" src="thumbnails/lmsewg/1280_phantomjs_current.png">
+                </a>
+                <p class="text-center"><a target="_blank" href="https://www.buro247.ru/a/50715.html">current</a></p>
+              </div>
+              
+              <div class="col-sm-4">
+                <a class="shot" href="lmsewg/1280_phantomjs_new.png">
+                  <img class="short-screenshot img-thumbnail" src="thumbnails/lmsewg/1280_phantomjs_new.png">
+                </a>
+                <p class="text-center"><a target="_blank" href="http://buro-master.ru/a/50715.html">new</a></p>
+              </div>
+              
+              <div class="col-sm-4">
+                
+                <a class="shot" href="lmsewg/1280_phantomjs_diff.png">
+                  <img class="short-screenshot img-thumbnail" src="thumbnails/lmsewg/1280_phantomjs_diff.png">
+                </a>
+                
+                <p class="text-center">diff</p>
+              </div>
+              <div class="difference col-sm-12">
+                
+                
+                <h4 class="text-center threshold">5.47 % different<span class="compare"></span></h4>
+                
+                
+              </div>
+            </div>
+            
+            
+            
+            <div class="row slide notype">
+              <a class="path" name="notype"></a>
+              <div class="col-sm-12 text-center">
+                
+                
+                <h4>1280px - /notype</h4>
+                
+                
+              </div>
+              
+              <div class="col-sm-4">
+                <a class="shot" href="notype/1280_phantomjs_current.png">
+                  <img class="short-screenshot img-thumbnail" src="thumbnails/notype/1280_phantomjs_current.png">
+                </a>
+                <p class="text-center"><a target="_blank" href="https://www.buro247.ru/a/54893.html">current</a></p>
+              </div>
+              
+              <div class="col-sm-4">
+                <a class="shot" href="notype/1280_phantomjs_new.png">
+                  <img class="short-screenshot img-thumbnail" src="thumbnails/notype/1280_phantomjs_new.png">
+                </a>
+                <p class="text-center"><a target="_blank" href="http://buro-master.ru/a/54893.html">new</a></p>
+              </div>
+              
+              <div class="col-sm-4">
+                
+                <a class="shot" href="notype/1280_phantomjs_diff.png">
+                  <img class="short-screenshot img-thumbnail" src="thumbnails/notype/1280_phantomjs_diff.png">
+                </a>
+                
+                <p class="text-center">diff</p>
+              </div>
+              <div class="difference col-sm-12">
+                
+                
+                <h4 class="text-center text-muted">1.4 % different<span class="compare"></span></h4>
+                
+                
+              </div>
+            </div>
+            
+            
+            
+            <div class="row slide home">
+              <a class="path" name="home"></a>
+              <div class="col-sm-12 text-center">
+                
+                
+                <h4>1280px - /home</h4>
+                
+                
+              </div>
+              
+              <div class="col-sm-4">
+                <a class="shot" href="home/1280_phantomjs_current.png">
+                  <img class="short-screenshot img-thumbnail" src="thumbnails/home/1280_phantomjs_current.png">
+                </a>
+                <p class="text-center"><a target="_blank" href="https://www.buro247.ru//">current</a></p>
+              </div>
+              
+              <div class="col-sm-4">
+                <a class="shot" href="home/1280_phantomjs_new.png">
+                  <img class="short-screenshot img-thumbnail" src="thumbnails/home/1280_phantomjs_new.png">
+                </a>
+                <p class="text-center"><a target="_blank" href="http://buro-master.ru//">new</a></p>
+              </div>
+              
+              <div class="col-sm-4">
+                
+                <a class="shot" href="home/1280_phantomjs_diff.png">
+                  <img class="short-screenshot img-thumbnail" src="thumbnails/home/1280_phantomjs_diff.png">
+                </a>
+                
+                <p class="text-center">diff</p>
+              </div>
+              <div class="difference col-sm-12">
+                
+                
+                <h4 class="text-center text-muted">0.1 % different<span class="compare"></span></h4>
+                
+                
+              </div>
+            </div>
+            
+            
+            
+            <div class="row slide tilda">
+              <a class="path" name="tilda"></a>
+              <div class="col-sm-12 text-center">
+                
+                
+                <h4>1280px - /tilda</h4>
+                
+                
+              </div>
+              
+              <div class="col-sm-4">
+                <a class="shot" href="tilda/1280_phantomjs_current.png">
+                  <img class="short-screenshot img-thumbnail" src="thumbnails/tilda/1280_phantomjs_current.png">
+                </a>
+                <p class="text-center"><a target="_blank" href="https://www.buro247.ru/a/40582.html">current</a></p>
+              </div>
+              
+              <div class="col-sm-4">
+                <a class="shot" href="tilda/1280_phantomjs_new.png">
+                  <img class="short-screenshot img-thumbnail" src="thumbnails/tilda/1280_phantomjs_new.png">
+                </a>
+                <p class="text-center"><a target="_blank" href="http://buro-master.ru/a/40582.html">new</a></p>
+              </div>
+              
+              <div class="col-sm-4">
+                
+                <a class="shot" href="tilda/1280_phantomjs_diff.png">
+                  <img class="short-screenshot img-thumbnail" src="thumbnails/tilda/1280_phantomjs_diff.png">
+                </a>
+                
+                <p class="text-center">diff</p>
+              </div>
+              <div class="difference col-sm-12">
+                
+                
+                <h4 class="text-center text-muted">0.0 % different<span class="compare"></span></h4>
+                
+                
+              </div>
+            </div>
+            
+            
+            
+            <div class="row slide wide_pic_2">
+              <a class="path" name="wide_pic_2"></a>
+              <div class="col-sm-12 text-center">
+                
+                
+                <h4>1280px - /wide_pic_2</h4>
+                
+                
+              </div>
+              
+              <div class="col-sm-4">
+                <a class="shot" href="wide_pic_2/1280_phantomjs_current.png">
+                  <img class="short-screenshot img-thumbnail" src="thumbnails/wide_pic_2/1280_phantomjs_current.png">
+                </a>
+                <p class="text-center"><a target="_blank" href="https://www.buro247.ru/a/45396.html">current</a></p>
+              </div>
+              
+              <div class="col-sm-4">
+                <a class="shot" href="wide_pic_2/1280_phantomjs_new.png">
+                  <img class="short-screenshot img-thumbnail" src="thumbnails/wide_pic_2/1280_phantomjs_new.png">
+                </a>
+                <p class="text-center"><a target="_blank" href="http://buro-master.ru/a/45396.html">new</a></p>
+              </div>
+              
+              <div class="col-sm-4">
+                
+                <a class="shot" href="wide_pic_2/1280_phantomjs_diff.png">
+                  <img class="short-screenshot img-thumbnail" src="thumbnails/wide_pic_2/1280_phantomjs_diff.png">
+                </a>
+                
+                <p class="text-center">diff</p>
+              </div>
+              <div class="difference col-sm-12">
+                
+                
+                <h4 class="text-center text-muted">0.0 % different<span class="compare"></span></h4>
+                
+                
+              </div>
+            </div>
+            
+            
+            
+            <div class="row slide category">
+              <a class="path" name="category"></a>
+              <div class="col-sm-12 text-center">
+                
+                
+                <h4>1280px - /category</h4>
+                
+                
+              </div>
+              
+              <div class="col-sm-4">
+                <a class="shot" href="category/1280_phantomjs_current.png">
+                  <img class="short-screenshot img-thumbnail" src="thumbnails/category/1280_phantomjs_current.png">
+                </a>
+                <p class="text-center"><a target="_blank" href="https://www.buro247.ru/fashion">current</a></p>
+              </div>
+              
+              <div class="col-sm-4">
+                <a class="shot" href="category/1280_phantomjs_new.png">
+                  <img class="short-screenshot img-thumbnail" src="thumbnails/category/1280_phantomjs_new.png">
+                </a>
+                <p class="text-center"><a target="_blank" href="http://buro-master.ru/fashion">new</a></p>
+              </div>
+              
+              <div class="col-sm-4">
+                
+                <a class="shot" href="category/1280_phantomjs_diff.png">
+                  <img class="short-screenshot img-thumbnail" src="thumbnails/category/1280_phantomjs_diff.png">
+                </a>
+                
+                <p class="text-center">diff</p>
+              </div>
+              <div class="difference col-sm-12">
+                
+                
+                <h4 class="text-center text-muted">0.0 % different<span class="compare"></span></h4>
+                
+                
+              </div>
+            </div>
+            
+            
+            
+            <div class="row slide wide_op">
+              <a class="path" name="wide_op"></a>
+              <div class="col-sm-12 text-center">
+                
+                
+                <h4>1280px - /wide_op</h4>
+                
+                
+              </div>
+              
+              <div class="col-sm-4">
+                <a class="shot" href="wide_op/1280_phantomjs_current.png">
+                  <img class="short-screenshot img-thumbnail" src="thumbnails/wide_op/1280_phantomjs_current.png">
+                </a>
+                <p class="text-center"><a target="_blank" href="https://www.buro247.ru/a/43125.html">current</a></p>
+              </div>
+              
+              <div class="col-sm-4">
+                <a class="shot" href="wide_op/1280_phantomjs_new.png">
+                  <img class="short-screenshot img-thumbnail" src="thumbnails/wide_op/1280_phantomjs_new.png">
+                </a>
+                <p class="text-center"><a target="_blank" href="http://buro-master.ru/a/43125.html">new</a></p>
+              </div>
+              
+              <div class="col-sm-4">
+                
+                <a class="shot" href="wide_op/1280_phantomjs_diff.png">
+                  <img class="short-screenshot img-thumbnail" src="thumbnails/wide_op/1280_phantomjs_diff.png">
+                </a>
+                
+                <p class="text-center">diff</p>
+              </div>
+              <div class="difference col-sm-12">
+                
+                
+                <h4 class="text-center text-muted">0.0 % different<span class="compare"></span></h4>
+                
+                
+              </div>
+            </div>
+            
+            
+            
+            <div class="row slide wide_gal">
+              <a class="path" name="wide_gal"></a>
+              <div class="col-sm-12 text-center">
+                
+                
+                <h4>1280px - /wide_gal</h4>
+                
+                
+              </div>
+              
+              <div class="col-sm-4">
+                <a class="shot" href="wide_gal/1280_phantomjs_current.png">
+                  <img class="short-screenshot img-thumbnail" src="thumbnails/wide_gal/1280_phantomjs_current.png">
+                </a>
+                <p class="text-center"><a target="_blank" href="https://www.buro247.ru/a/55036.html">current</a></p>
+              </div>
+              
+              <div class="col-sm-4">
+                <a class="shot" href="wide_gal/1280_phantomjs_new.png">
+                  <img class="short-screenshot img-thumbnail" src="thumbnails/wide_gal/1280_phantomjs_new.png">
+                </a>
+                <p class="text-center"><a target="_blank" href="http://buro-master.ru/a/55036.html">new</a></p>
+              </div>
+              
+              <div class="col-sm-4">
+                
+                <a class="shot" href="wide_gal/1280_phantomjs_diff.png">
+                  <img class="short-screenshot img-thumbnail" src="thumbnails/wide_gal/1280_phantomjs_diff.png">
+                </a>
+                
+                <p class="text-center">diff</p>
+              </div>
+              <div class="difference col-sm-12">
+                
+                
+                <h4 class="text-center text-muted">0.0 % different<span class="compare"></span></h4>
+                
+                
+              </div>
+            </div>
+            
+            
+            
+            <div class="row slide video_gal">
+              <a class="path" name="video_gal"></a>
+              <div class="col-sm-12 text-center">
+                
+                
+                <h4>1280px - /video_gal</h4>
+                
+                
+              </div>
+              
+              <div class="col-sm-4">
+                <a class="shot" href="video_gal/1280_phantomjs_current.png">
+                  <img class="short-screenshot img-thumbnail" src="thumbnails/video_gal/1280_phantomjs_current.png">
+                </a>
+                <p class="text-center"><a target="_blank" href="https://www.buro247.ru/a/58492.html">current</a></p>
+              </div>
+              
+              <div class="col-sm-4">
+                <a class="shot" href="video_gal/1280_phantomjs_new.png">
+                  <img class="short-screenshot img-thumbnail" src="thumbnails/video_gal/1280_phantomjs_new.png">
+                </a>
+                <p class="text-center"><a target="_blank" href="http://buro-master.ru/a/58492.html">new</a></p>
+              </div>
+              
+              <div class="col-sm-4">
+                
+                <a class="shot" href="video_gal/1280_phantomjs_diff.png">
+                  <img class="short-screenshot img-thumbnail" src="thumbnails/video_gal/1280_phantomjs_diff.png">
+                </a>
+                
+                <p class="text-center">diff</p>
+              </div>
+              <div class="difference col-sm-12">
+                
+                
+                <h4 class="text-center text-muted">0.0 % different<span class="compare"></span></h4>
+                
+                
+              </div>
+            </div>
+            
+            
+          </div>
+          <div class="next col-sm-1"><span></span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

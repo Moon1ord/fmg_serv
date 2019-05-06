@@ -1,15 +1,17 @@
 using System;
 using FMG_serv.Utils;
+using Microsoft.AspNetCore.Mvc;
 
 namespace FMG_serv.controllers
 {
     public class WraithController
     {
-        public void RunHello()
+        public void RunWraithTestAsync([FromForm] string path)
         {
-            var output = ShellHelper.Bash("wraith capture test-serv/public/hello_css_test/configs/capture.yaml");
-            Console.WriteLine(output);
+            Console.WriteLine("The test path is "+ path);
+            string execComand = ("cd " + path + "; pwd; wraith capture configs/capture.yaml"); 
+            Console.WriteLine(execComand);
+            ShellHelper.Bash(execComand);
         }
-
     }
 }

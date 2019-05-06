@@ -1,6 +1,5 @@
 import React from 'react';
 import './links.css';
-import $ from 'jquery';
 
 class WraithLinks extends React.Component{
 
