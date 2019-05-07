@@ -7,13 +7,19 @@ namespace FMG_serv.controllers
     //[NoCache]
     public class WraithController : Controller
     {
-        public void RunWraithTestAsync([FromForm] string path)
+        public async void RunWraithTestAsync([FromForm] string path)
         {
-            Console.WriteLine("The test path is "+ path);
-            string execComand = ("cd " + path + "; pwd; wraith capture configs/capture.yaml"); 
-            Console.WriteLine(execComand);
-            ShellHelper.Bash(execComand);
-            
+            try
+            {
+                Console.WriteLine("The test path is "+ path);
+                var execCommand = ("cd " + path + "; pwd; wraith capture configs/capture.yaml"); 
+                Console.WriteLine(execCommand + "\n");
+                await ShellHelper.BashAsync(execCommand);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }            
         }
     }
 }

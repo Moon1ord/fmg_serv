@@ -28,7 +28,9 @@ namespace FMG_serv
             services.AddMvc();
             services.AddCors();
             services.AddRouting();
-            services.AddSpaStaticFiles(config => config.RootPath = "test-serv/build");
+            services.AddSpaStaticFiles(config => config.RootPath = "test-serv/public");
+            
+            
         }
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env)
@@ -39,8 +41,14 @@ namespace FMG_serv
             }
             
             app.UseStaticFiles();
-            
-            app.UseSpaStaticFiles();
+            app.UseSpaStaticFiles(new StaticFileOptions()
+            {
+                OnPrepareResponse = context =>
+                {
+                    context.Context.Response.Headers.Add("Cache-Control", "no-cache, no-store");
+                    context.Context.Response.Headers.Add("Expires", "-1");
+                }
+            });
             
             
             app.UseCors(builder =>
