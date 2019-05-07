@@ -39,7 +39,10 @@ namespace FMG_serv
             }
             
             app.UseStaticFiles();
+            
             app.UseSpaStaticFiles();
+            
+            
             app.UseCors(builder =>
             {
                 builder.AllowAnyOrigin();

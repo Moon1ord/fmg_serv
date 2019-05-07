@@ -4,7 +4,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace FMG_serv.controllers
 {
-    public class WraithController
+    //[NoCache]
+    public class WraithController : Controller
     {
         public void RunWraithTestAsync([FromForm] string path)
         {
@@ -12,6 +13,7 @@ namespace FMG_serv.controllers
             string execComand = ("cd " + path + "; pwd; wraith capture configs/capture.yaml"); 
             Console.WriteLine(execComand);
             ShellHelper.Bash(execComand);
+            
         }
     }
 }

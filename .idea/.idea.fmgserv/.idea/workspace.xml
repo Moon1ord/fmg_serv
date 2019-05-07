@@ -34,80 +34,24 @@
     <list default="true" id="c26c39e1-9102-4f7c-b65f-a2bcf13eac56" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.fmgserv/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.fmgserv/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.fmgserv/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.fmgserv/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/Utils/ShellHelper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/Utils/ShellHelper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/Startup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/Startup.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FMG_serv/bin/Debug/netcoreapp2.2/FMG_serv.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/bin/Debug/netcoreapp2.2/FMG_serv.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FMG_serv/bin/Debug/netcoreapp2.2/FMG_serv.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/bin/Debug/netcoreapp2.2/FMG_serv.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FMG_serv/controllers/WraithController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/controllers/WraithController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FMG_serv/obj/Debug/netcoreapp2.2/FMG_serv.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/obj/Debug/netcoreapp2.2/FMG_serv.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FMG_serv/obj/Debug/netcoreapp2.2/FMG_serv.dll" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/obj/Debug/netcoreapp2.2/FMG_serv.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FMG_serv/obj/Debug/netcoreapp2.2/FMG_serv.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/obj/Debug/netcoreapp2.2/FMG_serv.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/obj/FMG_serv.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/obj/FMG_serv.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/obj/FMG_serv.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/obj/FMG_serv.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/shots/article/1280_chrome_current.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/shots/article/1280_chrome_data.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/shots/article/1280_chrome_diff.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/shots/article/1280_chrome_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/shots/category/1280_chrome_current.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/shots/category/1280_chrome_data.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/shots/category/1280_chrome_diff.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/shots/category/1280_chrome_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/shots/editor/1280_chrome_current.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/shots/editor/1280_chrome_data.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/shots/editor/1280_chrome_diff.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/shots/editor/1280_chrome_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/shots/gal/1280_chrome_current.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/shots/gal/1280_chrome_data.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/shots/gal/1280_chrome_diff.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/shots/gal/1280_chrome_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/shots/gallery.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/shots/home/1280_chrome_current.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/shots/home/1280_chrome_data.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/shots/home/1280_chrome_diff.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/shots/home/1280_chrome_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/shots/thumbnails/article/1280_chrome_current.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/shots/thumbnails/article/1280_chrome_diff.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/shots/thumbnails/article/1280_chrome_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/shots/thumbnails/category/1280_chrome_current.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/shots/thumbnails/category/1280_chrome_diff.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/shots/thumbnails/category/1280_chrome_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/shots/thumbnails/editor/1280_chrome_current.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/shots/thumbnails/editor/1280_chrome_diff.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/shots/thumbnails/editor/1280_chrome_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/shots/thumbnails/gal/1280_chrome_current.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/shots/thumbnails/gal/1280_chrome_diff.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/shots/thumbnails/gal/1280_chrome_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/shots/thumbnails/home/1280_chrome_current.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/shots/thumbnails/home/1280_chrome_diff.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/shots/thumbnails/home/1280_chrome_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/shots/thumbnails/video/1280_chrome_current.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/shots/thumbnails/video/1280_chrome_diff.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/shots/thumbnails/video/1280_chrome_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/shots/thumbnails/wide/1280_chrome_current.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/shots/thumbnails/wide/1280_chrome_diff.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/shots/thumbnails/wide/1280_chrome_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/shots/video/1280_chrome_current.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/shots/video/1280_chrome_data.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/shots/video/1280_chrome_diff.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/shots/video/1280_chrome_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/shots/wide/1280_chrome_current.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/shots/wide/1280_chrome_data.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/shots/wide/1280_chrome_diff.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/shots/wide/1280_chrome_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/test-serv/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/test-serv/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/hello_css_test/shots/article/1280_chrome_current.png" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/test-serv/public/hello_css_test/shots/article/1280_chrome_current.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/hello_css_test/shots/article/1280_chrome_data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/test-serv/public/hello_css_test/shots/article/1280_chrome_data.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/hello_css_test/shots/article/1280_chrome_diff.png" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/test-serv/public/hello_css_test/shots/article/1280_chrome_diff.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/hello_css_test/shots/article/1280_chrome_new.png" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/test-serv/public/hello_css_test/shots/article/1280_chrome_new.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/hello_css_test/shots/category/1280_chrome_current.png" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/test-serv/public/hello_css_test/shots/category/1280_chrome_current.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/hello_css_test/shots/category/1280_chrome_data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/test-serv/public/hello_css_test/shots/category/1280_chrome_data.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/hello_css_test/shots/category/1280_chrome_diff.png" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/test-serv/public/hello_css_test/shots/category/1280_chrome_diff.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/hello_css_test/shots/category/1280_chrome_new.png" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/test-serv/public/hello_css_test/shots/category/1280_chrome_new.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/hello_css_test/shots/editor/1280_chrome_current.png" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/test-serv/public/hello_css_test/shots/editor/1280_chrome_current.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/hello_css_test/shots/editor/1280_chrome_diff.png" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/test-serv/public/hello_css_test/shots/editor/1280_chrome_diff.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/hello_css_test/shots/editor/1280_chrome_new.png" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/test-serv/public/hello_css_test/shots/editor/1280_chrome_new.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/hello_css_test/shots/gal/1280_chrome_current.png" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/test-serv/public/hello_css_test/shots/gal/1280_chrome_current.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/hello_css_test/shots/gal/1280_chrome_data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/test-serv/public/hello_css_test/shots/gal/1280_chrome_data.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/hello_css_test/shots/gal/1280_chrome_diff.png" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/test-serv/public/hello_css_test/shots/gal/1280_chrome_diff.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/hello_css_test/shots/gal/1280_chrome_new.png" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/test-serv/public/hello_css_test/shots/gal/1280_chrome_new.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/hello_css_test/shots/gallery.html" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/test-serv/public/hello_css_test/shots/gallery.html" afterDir="false" />
@@ -143,146 +87,114 @@
       <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/hello_css_test/shots/wide/1280_chrome_data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/test-serv/public/hello_css_test/shots/wide/1280_chrome_data.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/hello_css_test/shots/wide/1280_chrome_diff.png" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/test-serv/public/hello_css_test/shots/wide/1280_chrome_diff.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/hello_css_test/shots/wide/1280_chrome_new.png" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/test-serv/public/hello_css_test/shots/wide/1280_chrome_new.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/configs/capture.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/configs/capture.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/category/1280_phantomjs_current.png" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/category/1280_phantomjs_current.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/category/1280_phantomjs_new.png" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/category/1280_phantomjs_new.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/column/1280_phantomjs_current.png" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/column/1280_phantomjs_current.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/column/1280_phantomjs_new.png" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/column/1280_phantomjs_new.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/column_art/1280_phantomjs_current.png" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/column_art/1280_phantomjs_current.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/column_art/1280_phantomjs_new.png" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/column_art/1280_phantomjs_new.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/category/1280_phantomjs_current.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/category/1280_phantomjs_data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/category/1280_phantomjs_diff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/category/1280_phantomjs_new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/column/1280_phantomjs_current.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/column/1280_phantomjs_data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/column/1280_phantomjs_diff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/column/1280_phantomjs_new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/column_art/1280_phantomjs_current.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/column_art/1280_phantomjs_data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/column_art/1280_phantomjs_diff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/column_art/1280_phantomjs_new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/gallery.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/home/1280_phantomjs_current.png" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/home/1280_phantomjs_current.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/home/1280_phantomjs_data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/home/1280_phantomjs_diff.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/home/1280_phantomjs_new.png" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/home/1280_phantomjs_new.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/lmse/1280_phantomjs_current.png" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/lmse/1280_phantomjs_current.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/lmse/1280_phantomjs_new.png" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/lmse/1280_phantomjs_new.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/lmsewg/1280_phantomjs_current.png" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/lmsewg/1280_phantomjs_current.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/lmsewg/1280_phantomjs_new.png" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/lmsewg/1280_phantomjs_new.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/lmse/1280_phantomjs_data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/lmse/1280_phantomjs_diff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/lmse/1280_phantomjs_new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/lmsewg/1280_phantomjs_current.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/lmsewg/1280_phantomjs_data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/lmsewg/1280_phantomjs_diff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/lmsewg/1280_phantomjs_new.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/lse/1280_phantomjs_current.png" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/lse/1280_phantomjs_current.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/lse/1280_phantomjs_data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/lse/1280_phantomjs_diff.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/lse/1280_phantomjs_new.png" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/lse/1280_phantomjs_new.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/lwse/1280_phantomjs_current.png" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/lwse/1280_phantomjs_current.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/lwse/1280_phantomjs_data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/lwse/1280_phantomjs_diff.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/lwse/1280_phantomjs_new.png" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/lwse/1280_phantomjs_new.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/notype/1280_phantomjs_current.png" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/notype/1280_phantomjs_current.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/notype/1280_phantomjs_data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/notype/1280_phantomjs_diff.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/notype/1280_phantomjs_new.png" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/notype/1280_phantomjs_new.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/slide_gal/1280_phantomjs_current.png" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/slide_gal/1280_phantomjs_current.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/slide_gal/1280_phantomjs_data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/slide_gal/1280_phantomjs_diff.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/slide_gal/1280_phantomjs_new.png" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/slide_gal/1280_phantomjs_new.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/thumbnails/category/1280_phantomjs_current.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/thumbnails/category/1280_phantomjs_diff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/thumbnails/category/1280_phantomjs_new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/thumbnails/column/1280_phantomjs_current.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/thumbnails/column/1280_phantomjs_diff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/thumbnails/column/1280_phantomjs_new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/thumbnails/column_art/1280_phantomjs_current.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/thumbnails/column_art/1280_phantomjs_diff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/thumbnails/column_art/1280_phantomjs_new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/thumbnails/home/1280_phantomjs_current.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/thumbnails/home/1280_phantomjs_diff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/thumbnails/home/1280_phantomjs_new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/thumbnails/lmse/1280_phantomjs_current.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/thumbnails/lmse/1280_phantomjs_diff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/thumbnails/lmse/1280_phantomjs_new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/thumbnails/lmsewg/1280_phantomjs_current.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/thumbnails/lmsewg/1280_phantomjs_diff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/thumbnails/lmsewg/1280_phantomjs_new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/thumbnails/lse/1280_phantomjs_current.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/thumbnails/lse/1280_phantomjs_diff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/thumbnails/lse/1280_phantomjs_new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/thumbnails/lwse/1280_phantomjs_current.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/thumbnails/lwse/1280_phantomjs_diff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/thumbnails/lwse/1280_phantomjs_new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/thumbnails/notype/1280_phantomjs_current.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/thumbnails/notype/1280_phantomjs_diff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/thumbnails/notype/1280_phantomjs_new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/thumbnails/slide_gal/1280_phantomjs_current.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/thumbnails/slide_gal/1280_phantomjs_diff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/thumbnails/slide_gal/1280_phantomjs_new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/thumbnails/tilda/1280_phantomjs_current.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/thumbnails/tilda/1280_phantomjs_diff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/thumbnails/tilda/1280_phantomjs_new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/thumbnails/video_gal/1280_phantomjs_current.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/thumbnails/video_gal/1280_phantomjs_diff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/thumbnails/video_gal/1280_phantomjs_new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/thumbnails/wide_gal/1280_phantomjs_current.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/thumbnails/wide_gal/1280_phantomjs_diff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/thumbnails/wide_gal/1280_phantomjs_new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/thumbnails/wide_op/1280_phantomjs_current.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/thumbnails/wide_op/1280_phantomjs_diff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/thumbnails/wide_op/1280_phantomjs_new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/thumbnails/wide_pic/1280_phantomjs_current.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/thumbnails/wide_pic/1280_phantomjs_diff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/thumbnails/wide_pic/1280_phantomjs_new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/thumbnails/wide_pic_2/1280_phantomjs_current.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/thumbnails/wide_pic_2/1280_phantomjs_diff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/thumbnails/wide_pic_2/1280_phantomjs_new.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/tilda/1280_phantomjs_data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/tilda/1280_phantomjs_diff.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/video_gal/1280_phantomjs_current.png" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/video_gal/1280_phantomjs_current.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/video_gal/1280_phantomjs_data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/video_gal/1280_phantomjs_diff.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/video_gal/1280_phantomjs_new.png" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/video_gal/1280_phantomjs_new.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/wide_gal/1280_phantomjs_current.png" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/wide_gal/1280_phantomjs_current.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/wide_gal/1280_phantomjs_data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/wide_gal/1280_phantomjs_diff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/wide_gal/1280_phantomjs_new.png" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/wide_gal/1280_phantomjs_new.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/wide_op/1280_phantomjs_data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/wide_op/1280_phantomjs_diff.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/wide_pic/1280_phantomjs_current.png" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/wide_pic/1280_phantomjs_current.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/wide_pic/1280_phantomjs_data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/wide_pic/1280_phantomjs_diff.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/wide_pic/1280_phantomjs_new.png" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/wide_pic/1280_phantomjs_new.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/wide_pic_2/1280_phantomjs_current.png" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/wide_pic_2/1280_phantomjs_current.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/wide_pic_2/1280_phantomjs_new.png" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/wide_pic_2/1280_phantomjs_new.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/configs/capture.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/configs/capture.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/category/340_phantomjs_current.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/category/340_phantomjs_data.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/category/340_phantomjs_diff.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/category/340_phantomjs_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/column/340_phantomjs_current.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/column/340_phantomjs_data.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/column/340_phantomjs_diff.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/column/340_phantomjs_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/column_art/340_phantomjs_current.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/column_art/340_phantomjs_data.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/column_art/340_phantomjs_diff.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/column_art/340_phantomjs_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/gallery.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/home/340_phantomjs_current.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/home/340_phantomjs_data.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/home/340_phantomjs_diff.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/home/340_phantomjs_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/lmse/340_phantomjs_current.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/lmse/340_phantomjs_data.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/lmse/340_phantomjs_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/lmsewg/340_phantomjs_current.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/lmsewg/340_phantomjs_data.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/lmsewg/340_phantomjs_diff.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/lmsewg/340_phantomjs_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/lse/340_phantomjs_current.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/lse/340_phantomjs_data.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/lse/340_phantomjs_diff.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/lse/340_phantomjs_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/lwse/340_phantomjs_current.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/lwse/340_phantomjs_data.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/lwse/340_phantomjs_diff.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/lwse/340_phantomjs_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/notype/340_phantomjs_current.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/notype/340_phantomjs_data.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/notype/340_phantomjs_diff.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/notype/340_phantomjs_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/slide_gal/340_phantomjs_current.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/slide_gal/340_phantomjs_data.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/slide_gal/340_phantomjs_diff.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/slide_gal/340_phantomjs_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/thumbnails/category/340_phantomjs_current.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/thumbnails/category/340_phantomjs_diff.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/thumbnails/category/340_phantomjs_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/thumbnails/column/340_phantomjs_current.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/thumbnails/column/340_phantomjs_diff.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/thumbnails/column/340_phantomjs_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/thumbnails/column_art/340_phantomjs_current.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/thumbnails/column_art/340_phantomjs_diff.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/thumbnails/column_art/340_phantomjs_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/thumbnails/home/340_phantomjs_current.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/thumbnails/home/340_phantomjs_diff.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/thumbnails/home/340_phantomjs_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/thumbnails/lmsewg/340_phantomjs_current.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/thumbnails/lmsewg/340_phantomjs_diff.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/thumbnails/lmsewg/340_phantomjs_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/thumbnails/lse/340_phantomjs_current.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/thumbnails/lse/340_phantomjs_diff.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/thumbnails/lse/340_phantomjs_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/thumbnails/lwse/340_phantomjs_current.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/thumbnails/lwse/340_phantomjs_diff.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/thumbnails/lwse/340_phantomjs_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/thumbnails/notype/340_phantomjs_current.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/thumbnails/notype/340_phantomjs_diff.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/thumbnails/notype/340_phantomjs_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/thumbnails/slide_gal/340_phantomjs_current.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/thumbnails/slide_gal/340_phantomjs_diff.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/thumbnails/slide_gal/340_phantomjs_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/thumbnails/tilda/340_phantomjs_current.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/thumbnails/tilda/340_phantomjs_diff.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/thumbnails/tilda/340_phantomjs_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/thumbnails/video_gal/340_phantomjs_current.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/thumbnails/video_gal/340_phantomjs_diff.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/thumbnails/video_gal/340_phantomjs_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/thumbnails/wide_gal/340_phantomjs_current.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/thumbnails/wide_gal/340_phantomjs_diff.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/thumbnails/wide_gal/340_phantomjs_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/thumbnails/wide_op/340_phantomjs_current.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/thumbnails/wide_op/340_phantomjs_diff.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/thumbnails/wide_op/340_phantomjs_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/thumbnails/wide_pic/340_phantomjs_current.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/thumbnails/wide_pic/340_phantomjs_diff.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/thumbnails/wide_pic/340_phantomjs_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/thumbnails/wide_pic_2/340_phantomjs_current.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/thumbnails/wide_pic_2/340_phantomjs_diff.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/thumbnails/wide_pic_2/340_phantomjs_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/tilda/340_phantomjs_current.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/tilda/340_phantomjs_data.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/tilda/340_phantomjs_diff.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/tilda/340_phantomjs_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/video_gal/340_phantomjs_current.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/video_gal/340_phantomjs_data.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/video_gal/340_phantomjs_diff.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/video_gal/340_phantomjs_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/wide_gal/340_phantomjs_current.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/wide_gal/340_phantomjs_data.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/wide_gal/340_phantomjs_diff.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/wide_gal/340_phantomjs_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/wide_op/340_phantomjs_current.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/wide_op/340_phantomjs_data.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/wide_op/340_phantomjs_diff.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/wide_op/340_phantomjs_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/wide_pic/340_phantomjs_current.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/wide_pic/340_phantomjs_data.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/wide_pic/340_phantomjs_diff.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/wide_pic/340_phantomjs_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/wide_pic_2/340_phantomjs_current.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/wide_pic_2/340_phantomjs_data.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/wide_pic_2/340_phantomjs_diff.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/shots/wide_pic_2/340_phantomjs_new.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/test-serv/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/src/components/headnav.css" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/test-serv/src/components/headmenu/headnav.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/src/components/navigation.js" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/test-serv/src/components/headmenu/navigation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/src/components/wraith/wraith_links.js" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/test-serv/src/components/wraith/wraith_links.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/wide_pic_2/1280_phantomjs_data.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/shots/wide_pic_2/1280_phantomjs_diff.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FMG_serv/test-serv/src/components/sideBarMenu/sideBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/FMG_serv/test-serv/src/components/sideBarMenu/sideBar.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -290,18 +202,40 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+            <file pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/FMG_serv/test-serv/src/components/sideBarMenu/sideBar.js">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state relative-caret-position="390">
+                    <caret line="26" column="141" selection-start-line="26" selection-start-column="141" selection-end-line="26" selection-end-column="141" />
+                    <folding>
+                      <element signature="e#0#26#0" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FMG_serv/controllers/WraithController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            <state relative-caret-position="60">
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
               <folding>
-                <marker date="1557158764668" expanded="false" signature="6:67" ph="..." />
-                <marker date="1557158764668" expanded="true" signature="99:471" ph="{...}" />
-                <marker date="1557158764668" expanded="true" signature="135:469" ph="{...}" />
-                <marker date="1557158764668" expanded="true" signature="204:463" ph="{...}" />
+                <marker date="1557216888986" expanded="false" signature="6:67" ph="..." />
+                <marker date="1557216888986" expanded="true" signature="99:513" ph="{...}" />
+                <marker date="1557216888986" expanded="true" signature="164:511" ph="{...}" />
+                <marker date="1557216888986" expanded="true" signature="233:505" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -319,8 +253,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FMG_serv/test-serv/build/wraith_css_test_mob/configs/capture.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1125">
+            <state relative-caret-position="572">
               <caret line="75" column="10" selection-start-line="75" selection-start-column="10" selection-end-line="75" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FMG_serv/Startup.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="137">
+              <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+              <folding>
+                <marker date="1557216779494" expanded="false" signature="6:390" ph="..." />
+                <marker date="1557216779494" expanded="true" signature="411:1855" ph="{...}" />
+                <marker date="1557216779494" expanded="true" signature="438:1853" ph="{...}" />
+                <marker date="1557216779494" expanded="true" signature="498:561" ph="{...}" />
+                <marker date="1557216779494" expanded="true" signature="699:904" ph="{...}" />
+                <marker date="1557216779494" expanded="true" signature="985:1847" ph="{...}" />
+                <marker date="1557216779494" expanded="true" signature="1032:1109" ph="{...}" />
+                <marker date="1557216779494" expanded="true" signature="1267:1421" ph="{...}" />
+                <marker date="1557216779494" expanded="true" signature="1457:1560" ph="{...}" />
+                <marker date="1557216779494" expanded="true" signature="1605:1834" ph="{...}" />
+                <marker date="1557216779494" expanded="true" signature="1714:1820" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -348,7 +304,6 @@
         <option value="$PROJECT_DIR$/FMG_serv/test-serv/src/App.js" />
         <option value="$PROJECT_DIR$/FMG_serv/test-serv/public/index.html" />
         <option value="$PROJECT_DIR$/FMG_serv/test-serv/src/components/wraith/wraith_links.js" />
-        <option value="$PROJECT_DIR$/FMG_serv/Startup.cs" />
         <option value="$PROJECT_DIR$/FMG_serv/controllers/HomeController.cs" />
         <option value="$PROJECT_DIR$/FMG_serv/Utils/scripts/RunBuro.sh" />
         <option value="$PROJECT_DIR$/FMG_serv/Utils/ShellHelper.cs" />
@@ -356,6 +311,8 @@
         <option value="$PROJECT_DIR$/FMG_serv/test-serv/public/hello_css_test_mob/configs/capture.yaml" />
         <option value="$PROJECT_DIR$/FMG_serv/test-serv/build/wraith_css_test_mob/configs/capture.yaml" />
         <option value="$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/configs/capture.yaml" />
+        <option value="$PROJECT_DIR$/FMG_serv/test-serv/src/components/sideBarMenu/sideBar.js" />
+        <option value="$PROJECT_DIR$/FMG_serv/Startup.cs" />
         <option value="$PROJECT_DIR$/FMG_serv/controllers/WraithController.cs" />
       </list>
     </option>
@@ -372,8 +329,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="FileSystemExplorer" />
       <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <subPane>
           <expand>
@@ -447,11 +404,14 @@
       <workItem from="1557145782709" duration="228000" />
       <workItem from="1557147333348" duration="1910000" />
       <workItem from="1557157791601" duration="1286000" />
+      <workItem from="1557214344720" duration="637000" />
+      <workItem from="1557214997139" duration="900000" />
+      <workItem from="1557216470880" duration="883000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40575000" />
+    <option name="totallyTimeSpent" value="42995000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -465,7 +425,7 @@
   <component name="ToolWindowManager">
     <frame x="0" y="-1" width="1280" height="1024" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29092383" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30551052" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -486,7 +446,7 @@
       <window_info anchor="bottom" id="TeamCity" order="13" />
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="15" weight="0.3288889" />
-      <window_info anchor="bottom" id="Terminal" order="16" visible="true" weight="0.27666667" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="16" visible="true" weight="0.27555555" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -602,26 +562,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FMG_serv/Startup.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="51" column="64" selection-start-line="51" selection-start-column="64" selection-end-line="51" selection-end-column="64" />
-          <folding>
-            <marker date="1556618555803" expanded="false" signature="6:390" ph="..." />
-            <marker date="1556618555803" expanded="true" signature="411:1816" ph="{...}" />
-            <marker date="1556618555803" expanded="true" signature="438:1814" ph="{...}" />
-            <marker date="1556618555803" expanded="true" signature="498:561" ph="{...}" />
-            <marker date="1556618555803" expanded="false" signature="699:904" ph="{...}" />
-            <marker date="1556618555803" expanded="true" signature="985:1808" ph="{...}" />
-            <marker date="1556618555803" expanded="false" signature="1032:1109" ph="{...}" />
-            <marker date="1556618555803" expanded="false" signature="1228:1382" ph="{...}" />
-            <marker date="1556618555803" expanded="true" signature="1418:1521" ph="{...}" />
-            <marker date="1556618555803" expanded="false" signature="1566:1795" ph="{...}" />
-            <marker date="1556618555803" expanded="true" signature="1675:1781" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FMG_serv/test-serv/public/hello_css_test/shots/gallery.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2475" />
@@ -673,19 +613,6 @@
     <entry file="file://$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test_mob/configs/capture.yaml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/FMG_serv/controllers/WraithController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding>
-            <marker date="1557158764668" expanded="false" signature="6:67" ph="..." />
-            <marker date="1557158764668" expanded="true" signature="99:471" ph="{...}" />
-            <marker date="1557158764668" expanded="true" signature="135:469" ph="{...}" />
-            <marker date="1557158764668" expanded="true" signature="204:463" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FMG_serv/test-serv/public/wraith_css_test/configs/capture.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1125">
@@ -695,8 +622,51 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FMG_serv/test-serv/build/wraith_css_test_mob/configs/capture.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1125">
+        <state relative-caret-position="572">
           <caret line="75" column="10" selection-start-line="75" selection-start-column="10" selection-end-line="75" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FMG_serv/test-serv/src/components/sideBarMenu/sideBar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="141" selection-start-line="26" selection-start-column="141" selection-end-line="26" selection-end-column="141" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FMG_serv/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="40" column="31" selection-start-line="40" selection-start-column="31" selection-end-line="40" selection-end-column="31" />
+          <folding>
+            <marker date="1557216779494" expanded="false" signature="6:390" ph="..." />
+            <marker date="1557216779494" expanded="true" signature="411:1855" ph="{...}" />
+            <marker date="1557216779494" expanded="true" signature="438:1853" ph="{...}" />
+            <marker date="1557216779494" expanded="true" signature="498:561" ph="{...}" />
+            <marker date="1557216779494" expanded="true" signature="699:904" ph="{...}" />
+            <marker date="1557216779494" expanded="true" signature="985:1847" ph="{...}" />
+            <marker date="1557216779494" expanded="true" signature="1032:1109" ph="{...}" />
+            <marker date="1557216779494" expanded="true" signature="1267:1421" ph="{...}" />
+            <marker date="1557216779494" expanded="true" signature="1457:1560" ph="{...}" />
+            <marker date="1557216779494" expanded="true" signature="1605:1834" ph="{...}" />
+            <marker date="1557216779494" expanded="true" signature="1714:1820" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FMG_serv/controllers/WraithController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding>
+            <marker date="1557216888986" expanded="false" signature="6:67" ph="..." />
+            <marker date="1557216888986" expanded="true" signature="99:513" ph="{...}" />
+            <marker date="1557216888986" expanded="true" signature="164:511" ph="{...}" />
+            <marker date="1557216888986" expanded="true" signature="233:505" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>

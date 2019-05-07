@@ -21,7 +21,10 @@ class SideBar extends React.Component{
                         Wraith
                     </button>
                     <div className="dropdown-menu">
+                        <button className="dropdown-item" value='test-serv/public/wraith_css_test' onClick={this.runTest}>Run Buro</button>
+                        <button className="dropdown-item" value='test-serv/public/wraith_css_test_mob' onClick={this.runTest}>Run Buro Mobile</button>
                         <button className="dropdown-item" value='test-serv/public/hello_css_test' onClick={this.runTest}>Run Hello</button>
+                        <button className="dropdown-item" value='test-serv/public/hello_css_test_mob' onClick={this.runTest}>Run Hello Mobile</button>
                     </div>
                 </div>
             </div>
