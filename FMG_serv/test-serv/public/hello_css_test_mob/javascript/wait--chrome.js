@@ -14,6 +14,7 @@ setTimeout(function(){
       $('.eng_widget_sw').hide();
       $('.eng_branding').hide();
       $('.banner-adfox').hide();
+      $('.spinner').hide();
     });
 }, 10000);
 setTimeout(callback, 15000);

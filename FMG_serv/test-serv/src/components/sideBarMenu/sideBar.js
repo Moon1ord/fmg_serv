@@ -1,6 +1,7 @@
 import React from 'react';
 import './sidebar.css';
 import $ from 'jquery';
+import ProgressBar from './progressBar';
 
 class SideBar extends React.Component{
 
@@ -10,7 +11,7 @@ class SideBar extends React.Component{
         console.log(path);
         $.post(url, {
             path: path
-        });
+        }).fail(function(){alert("Тест запущен, подождите!")});
     }
 
     render() {
@@ -20,6 +21,7 @@ class SideBar extends React.Component{
                     <button type="button" className="btn" id='wraithBtn' data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                         Wraith
                     </button>
+                    <ProgressBar/>
                     <div className="dropdown-menu">
                         <button className="dropdown-item" value='test-serv/public/wraith_css_test' onClick={this.runTest}>Run Buro</button>
                         <button className="dropdown-item" value='test-serv/public/wraith_css_test_mob' onClick={this.runTest}>Run Buro Mobile</button>
@@ -29,6 +31,7 @@ class SideBar extends React.Component{
                         <button className="dropdown-item" value='test-serv/public/spletnik_css_test_mob' onClick={this.runTest}>Run Spletnik Mobile</button>
                     </div>
                 </div>
+
             </div>
         );
     }

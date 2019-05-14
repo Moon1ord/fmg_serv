@@ -14,6 +14,7 @@
 
 # (required) The engine to run Wraith with. Examples: 'phantomjs', 'casperjs', 'slimerjs'
 browser: "phantomjs"
+#browser: "chrome"
 
 snap_file: "my_snap.js"
 # (required) The domains to take screenshots of.
@@ -73,4 +74,4 @@ mode: diffs_first
 
 verbose: true
 
-threads: 1
+threads: 5

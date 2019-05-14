@@ -26,7 +26,7 @@ namespace FMG_serv.Utils
             return result;
         }
         
-        public static async Task BashAsync( string cmd)
+        public static async Task BashAsync(string cmd)
         {
             var escapedArgs = cmd.Replace("\"", "\\\"");
 

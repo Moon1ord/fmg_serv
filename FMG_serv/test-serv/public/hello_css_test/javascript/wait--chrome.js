@@ -13,6 +13,7 @@ setTimeout(function(){
       $('.eng_widget_sw').hide();
       $('.eng_branding').hide();
       $('.banner-adfox').hide();
+      $('.spinner').hide();
     });
 }, 15000);
 setTimeout(callback, 20000);
