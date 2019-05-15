@@ -8,10 +8,12 @@ class SideBar extends React.Component{
     runTest(elem){
         let url = 'http://172.16.1.247:5001/Wraith/RunWraithTestAsync';
         let path = elem.target.value;
+        $('.spinner').css('display', 'inline');
         console.log(path);
-        $.post(url, {
-            path: path
-        }).fail(function(){alert("Тест запущен, подождите!")});
+
+        $.post(url, {path: path}, function () {
+            $('.spinner').css('display', 'none');
+        }).fail(function(){alert("Тест запущен, подождите!")})
     }
 
     render() {

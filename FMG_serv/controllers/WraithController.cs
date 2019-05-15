@@ -11,9 +11,9 @@ namespace FMG_serv.controllers
     {        
         private readonly Process [] _pahntomjsP = Process.GetProcessesByName("phantomjs");
         private readonly Process [] _chromeP = Process.GetProcessesByName("chrome");
-        public async Task<IActionResult> RunWraithTestAsync([FromForm] string path)
+        public IActionResult RunWraithTestAsync([FromForm] string path)
         {
-            if(Process.GetProcessesByName("chrome").Length > 1 || Process.GetProcessesByName("phantomjs").Length > 1)
+            if(_chromeP.Length > 1 || _pahntomjsP.Length > 1)
             {
                 Console.WriteLine("Test is running please wait!");
                 return BadRequest();
@@ -25,8 +25,11 @@ namespace FMG_serv.controllers
                     Console.WriteLine("The test path is "+ path);
                     var execCommand = ("cd " + path + "; pwd; wraith capture configs/capture.yaml"); 
                     Console.WriteLine(execCommand + "\n");
-                    await ShellHelper.BashAsync(execCommand);
-                    return Ok();
+                    ShellHelper.Bash(execCommand);
+                    while(_chromeP.Length!=0 || _pahntomjsP.Length!=0){
+
+                    }
+                    return Json(new{status = "done"});
                 }
                 catch (Exception e)
                 {
@@ -36,7 +39,7 @@ namespace FMG_serv.controllers
             }         
         }
 
-        public async Task<IActionResult> GetTestProgress(){
+        public IActionResult GetTestProgress(){
             return Json(new{phantomThreads=_pahntomjsP.Length, chromeThreads=_chromeP.Length});
         }
     }
