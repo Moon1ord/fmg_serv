@@ -6,12 +6,11 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace FMG_serv.controllers
 {
-    //[NoCache]
     public class WraithController : Controller
     {        
-        private readonly Process [] _pahntomjsP = Process.GetProcessesByName("phantomjs");
-        private readonly Process [] _chromeP = Process.GetProcessesByName("chrome");
-        public IActionResult RunWraithTestAsync([FromForm] string path)
+        private  Process [] _pahntomjsP = Process.GetProcessesByName("phantomjs");
+        private Process [] _chromeP = Process.GetProcessesByName("chrome");
+        public async Task<IActionResult> RunWraithTestAsync([FromForm] string path)
         {
             if(_chromeP.Length > 1 || _pahntomjsP.Length > 1)
             {
@@ -26,9 +25,9 @@ namespace FMG_serv.controllers
                     var execCommand = ("cd " + path + "; pwd; wraith capture configs/capture.yaml"); 
                     Console.WriteLine(execCommand + "\n");
                     ShellHelper.Bash(execCommand);
-                    while(_chromeP.Length!=0 || _pahntomjsP.Length!=0){
-
-                    }
+                    await Task.Run(() => {
+                        while(_chromeP.Length!=0 || _pahntomjsP.Length!=0){}
+                    });
                     return Json(new{status = "done"});
                 }
                 catch (Exception e)
@@ -39,7 +38,21 @@ namespace FMG_serv.controllers
             }         
         }
 
-        public IActionResult GetTestProgress(){
+        public async Task<IActionResult> GetTestProgress(){
+            try{
+                await Task.Run(() => {
+                    while(Process.GetProcessesByName("phantomjs").Length != 0 ||
+                     Process.GetProcessesByName("chrome").Length != 0){
+                    }
+                });
+            Task.WaitAll();
+            return Json(new{status="done"});
+            } catch (Exception ex){
+                return Json(new{error=ex.Message});
+            }
+        }
+
+        public IActionResult GetTestProcesses(){
             return Json(new{phantomThreads=_pahntomjsP.Length, chromeThreads=_chromeP.Length});
         }
     }

@@ -48,8 +48,6 @@ namespace FMG_serv.Utils
                 process.WaitForExit();
                 return result;
             });
-            
-            //return result;
         }
     }
 }

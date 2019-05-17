@@ -5,16 +5,16 @@ import ProgressBar from './progressBar';
 
 class SideBar extends React.Component{
 
-    runTest(elem){
+    async runTest(elem){
         let url = 'http://172.16.1.247:5001/Wraith/RunWraithTestAsync';
         let path = elem.target.value;
         $('.spinner').css('display', 'inline');
         console.log(path);
 
-        $.post(url, {path: path}, function () {
+        await $.post(url, {path: path}, function () {
             $('.spinner').css('display', 'none');
-        }).fail(function(){alert("Тест запущен, подождите!")})
-    }
+        }).fail(function(){alert("Тест запущен, подождите!")});
+    };
 
     render() {
         return (
